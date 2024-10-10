@@ -1,0 +1,9 @@
+import Login from '@/src/Component/Auth/Login';
+import React from 'react';
+const index = () => {
+  return (
+    <Login/>
+  );
+};
+
+export default index;

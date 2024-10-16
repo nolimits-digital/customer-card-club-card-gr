@@ -6,7 +6,7 @@ const BackBtn = ({ pageTitle }) => {
   const router = useRouter(); // Get the router object
 
   return (
-    <div className="pt-[41px] pb-[28px] px-[28px] bg-[#19669D] flex items-center justify-start gap-[23px]">
+    <div className="pt-[25px] pb-[25px] px-[28px] bg-[#19669D] flex items-center justify-start gap-[23px]">
       <button
         onClick={() => router.back()} // Navigate back when clicked
         className="relative delay-[0.4s] hover:scale-110"

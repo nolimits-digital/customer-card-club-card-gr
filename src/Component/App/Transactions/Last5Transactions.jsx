@@ -4,15 +4,6 @@ import { UserContext } from '@/Context/AuthContext';
 import { baseUrl } from '@/baseUrl';
 import { format, formatDistance, formatRelative, subDays } from 'date-fns'
 
-
-// const transactions = [
-//   { id: 1, merchant: 'Merchant 1 Store Name', date: '22/09/24', amount: '+0.56', status: 'Pending', color: '#D3A424' },
-//   { id: 2, merchant: 'Merchant 2 Store Name', date: '22/09/24', amount: '-1.78', status: 'Confirmed', color: '#F00' },
-//   { id: 3, merchant: 'Merchant 3 Store Name', date: '12/09/24', amount: '+5.19', status: 'Confirmed', color: '#2F981C' },
-//   { id: 4, merchant: 'Merchant 4 Store Name', date: '23/08/24', amount: '+11.22', status: 'Confirmed', color: '#2F981C' },
-//   { id: 5, merchant: 'Merchant 5 Store Name', date: '19/08/24', amount: '+14.90', status: 'Confirmed', color: '#2F981C' }
-// ]
-
 const Last5Transactions = () => {
   const { user } = useContext(UserContext);
   const [transaction, setTransaction] = useState([]);

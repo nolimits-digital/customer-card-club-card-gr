@@ -1,5 +1,6 @@
 import React, { createContext, useEffect, useState } from 'react';
 import {baseUrl} from '@/baseUrl'
+
 export const UserContext = createContext();
 const index = ({children}) => {
   const [user, setUser] = useState({});

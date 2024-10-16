@@ -6,7 +6,7 @@ import ClubCardBalance from './ClubCardBalance'
 const MyClubcard = () => {
     const { user } = useContext(UserContext)
     return (
-        <div className="relative overflow-x-hidden overflow-y-scroll">
+        <div className="relative">
             <div className="absolute top-0 left-0 w-full bg-[#19669D] h-[200px] z-0" />
             <div className="relative z-10 pt-[87px] px-[18px] pb-[25px]">
                 <div className="bg-white px-[20%] rounded-[6px]" style={{ boxShadow: '0px 6px 3px 0px rgba(0, 0, 0, 0.16)' }}>
